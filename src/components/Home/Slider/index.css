@@ -1,0 +1,30 @@
+.slider-slick{
+    width: 100%;
+    height: 100vh !important;
+    background-size: cover;
+    position: relative;
+  }
+  /* .slick-arrow{
+    display: none !important;
+  } */
+  .slider-slick::before{
+    content:"";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.3);
+  }
+  .slide1{
+    background-image: url("../../../images/slider1.jpg");
+  }
+  .slide2{
+    background-image: url("../../../images/slider2.jpg");
+  }
+  .slide3{
+    background-image: url("../../../images/slider3.jpg");
+  }
+  .slick-list{
+    width:100%
+  }

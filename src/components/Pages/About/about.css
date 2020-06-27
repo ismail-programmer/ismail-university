@@ -1,0 +1,9 @@
+.about_slider_wrapper .slick-dots > li{
+    width: calc(100%/3) !important;
+    bottom: 27.5px !important;
+    transition: all 0.3s ease-in-out;
+  }
+  .about_slider_wrapper .slick-dots > .slick-active{
+    transform: scale(1.2) translateY(-10px);
+    z-index: 100;
+  }
